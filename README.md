@@ -1,4 +1,5 @@
 # Lev Academic Center's Mini Project in Data Bases
+### Project's System:
+The Quartermaster Division in the IDF
 ### Project Members:
-Uriel Dolev 215676560
-Shilo Souffir 328308002
+Uriel Dolev & Shilo Souffir
