@@ -56,7 +56,7 @@ CREATE TABLE Uniform (
   Uniform_Type VARCHAR2(40) NOT NULL,
   Uniform_Size VARCHAR2(10) NOT NULL,
   Serial_Number INT NOT NULL,
-  Officiality VARCHAR2(10) NOT NULL Check(Officiality = ‘A’ OR Officiality = ‘B’),
+  Officiality VARCHAR2(1) NOT NULL CHECK(Officiality IN ('A','B')),
   PRIMARY KEY (Serial_Number),
   FOREIGN KEY (Serial_Number) REFERENCES Item(Serial_Number)
 );
