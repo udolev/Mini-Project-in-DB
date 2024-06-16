@@ -102,4 +102,3 @@ WHERE Soldier_ID NOT IN (SELECT Soldier_ID FROM Owns));
 
 DELETE FROM Soldier
 WHERE Soldier_ID NOT IN (SELECT Soldier_ID FROM Owns);
-
