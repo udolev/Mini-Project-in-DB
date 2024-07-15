@@ -11,5 +11,3 @@ BEGIN
   -- Call the procedure to increment store capacities
   Increment_Store_Capacities(v_base_name, v_increment);
 END;
-/
-/
